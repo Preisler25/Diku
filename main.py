@@ -74,7 +74,7 @@ def feladat11(list: list):
         print("Hello World!")
     for i in range(len(list)):
         print(list[i])
-def feladat12(list: list, num: int):
+def feladat12(num: int):
     while num < 10:
         print("Hello World!")
         num += 1
@@ -92,5 +92,6 @@ def main():
     feladat9([])
     feladat10([1])
     feladat11([1, 2, 3])
+    feladat12(2)
 main()
 #endregion
