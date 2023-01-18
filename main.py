@@ -74,6 +74,8 @@ def feladat11(list: list):
         print("feladat11")
     for i in range(len(list)):
         print(list[i])
+#endregion
+#region harmadik Óra
 def feladat12(num: int):
     while num < 10:
         print("feladat12")
